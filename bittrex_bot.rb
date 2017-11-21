@@ -2,8 +2,8 @@ require "rest-client"
 require "colorize"
 require "json"
 BASE_URL = "https://bittrex.com/api/v1.1/"
-API_KEY = "<YOUR_API_KEY>"
-API_SECRET = "<YOUR_API_SECRET>"
+API_KEY = "<eadd60ff93f54cf69bf53e319d438ceb>"
+API_SECRET = "<e0b966c6eb5b45b2a6c512dd4fa19fce>"
 @units_bought = 0
 @currency = ARGV[0]
 @market_name = "BTC-"+@currency
